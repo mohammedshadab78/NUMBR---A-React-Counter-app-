@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Primary SEO Metadata -->
+    <title>NUMBR - Tactile Online Tally Counter & Click Tracker | Soft UI</title>
+    <meta name="title" content="NUMBR - Tactile Online Tally Counter & Click Tracker | Soft UI" />
+    <meta name="description" content="Free online tactile tally counter with mechanical audio switch clicks, mobile haptic feedback, 64-bit integer radix conversions (HEX, BIN), custom step delta multipliers, and offline auto-save." />
+    <meta name="keywords" content="tally counter, online counter, click counter, digital clicker, rep counter, headcount tracker, inventory audit clicker, neumorphic counter, web audio clicker, habit counter" />
+    <meta name="author" content="NUMBR Runtime" />
+    <meta name="application-name" content="NUMBR" />
+    <meta name="theme-color" content="#e6ecf4" />
+    <link rel="canonical" href="https://numbr.app/" />
+
+    <!-- Google Search Engine Crawler Directives -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://numbr.app/" />
+    <meta property="og:title" content="NUMBR - Tactile Online Tally Counter & Click Tracker" />
+    <meta property="og:description" content="Precision hardware-level tally runtime with satisfying tactile audio, mobile vibration, custom step multipliers, and live audit event buffering." />
+    <meta property="og:image" content="https://numbr.app/logo.png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="NUMBR - Tactile Neumorphic Tally Counter Logo" />
+    <meta property="og:site_name" content="NUMBR" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://numbr.app/" />
+    <meta name="twitter:title" content="NUMBR - Tactile Online Tally Counter" />
+    <meta name="twitter:description" content="Free online click counter with authentic mechanical feedback, 64-bit integer radix conversions, and live state telemetry." />
+    <meta name="twitter:image" content="https://numbr.app/logo.png" />
+    <meta name="twitter:image:alt" content="NUMBR Official Logo" />
+
+    <!-- PWA & Mobile Web Capabilities -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="NUMBR" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+    <!-- Structured Data (JSON-LD) for Google Rich Snippets & Indexing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://numbr.app/#webapp",
+          "url": "https://numbr.app/",
+          "name": "NUMBR - Hardware-Level Tally Runtime",
+          "applicationCategory": "UtilitiesApplication",
+          "operatingSystem": "All (Web, Android, iOS, Windows, macOS, Linux)",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "image": "https://numbr.app/logo.png",
+          "screenshot": "https://numbr.app/logo.png",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "High-precision online tactile tally counter with Web Audio switch clicks, mobile haptic feedback, 64-bit radix conversions, customizable step multipliers, and offline auto-save.",
+          "featureList": [
+            "Tactile Web Audio Switch Feedback",
+            "Mobile Haptic Vibration Engine",
+            "Custom Step Multipliers (1, 5, 10, 50, 100, Custom)",
+            "64-Bit Integer Radix (HEX, Binary, Parity)",
+            "50-Event LIFO Audit Log Buffer with CSV Export",
+            "Offline LocalStorage Persistence",
+            "Full Keyboard Shortcuts (Space, Shift+Space, R, 1-5, Ctrl+Z)"
+          ]
+        },
+        {
+          "@type": "Brand",
+          "@id": "https://numbr.app/#brand",
+          "name": "NUMBR",
+          "url": "https://numbr.app/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://numbr.app/logo.png",
+            "width": 1024,
+            "height": 1024,
+            "caption": "NUMBR Official Logo"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://numbr.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is NUMBR?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NUMBR is a free, high-precision tactile online tally counter and click tracking application featuring authentic neumorphic Soft UI design, realistic mechanical switch sound effects, mobile haptics, and instant offline storage."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can NUMBR be used offline on mobile phones?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, NUMBR automatically persists your count, step settings, and goal progress to your browser's local storage and works seamlessly offline on Android, iPhone, tablet, and desktop browsers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What keyboard shortcuts are supported?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Press Space to increment, Shift+Space to decrement, R to reset to zero, keys 1 through 5 to switch step multipliers, and Ctrl+Z to undo your previous action."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-[#e6ecf4] text-slate-800 antialiased selection:bg-cyan-500 selection:text-white min-h-[100dvh]">
+    <div id="root">
+      <!-- Semantic Static Fallback for Googlebot & Search Crawlers (Indexed instantly before JS hydrates) -->
+      <noscript>
+        <div style="max-width:800px;margin:40px auto;padding:24px;font-family:sans-serif;line-height:1.6;color:#1e293b;">
+          <img src="/logo.png" alt="NUMBR Logo" width="80" height="80" style="border-radius:18px;" />
+          <h1>NUMBR - Hardware-Level Online Tally Counter</h1>
+          <p>NUMBR is a high-precision, tactile online tally counter and click tracker designed for reps, inventory audits, event headcounts, and habit tracking.</p>
+          <h2>Key Features</h2>
+          <ul>
+            <li>Tactile mechanical switch audio feedback & mobile haptics</li>
+            <li>Customizable step multipliers (1, 5, 10, 50, 100, custom)</li>
+            <li>64-bit integer radix display: Decimal, Hexadecimal, Binary, and Parity</li>
+            <li>Audit Event Buffer with CSV Export</li>
+            <li>Offline auto-saving to local storage</li>
+          </ul>
+        </div>
+      </noscript>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

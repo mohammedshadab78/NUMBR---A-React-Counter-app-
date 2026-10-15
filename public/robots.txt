@@ -1,0 +1,6 @@
+# Robots.txt for NUMBR Tally Runtime
+User-agent: *
+Allow: /
+
+# Host & Sitemap
+Sitemap: https://numbr.app/sitemap.xml

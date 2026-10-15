@@ -1,0 +1,23 @@
+{
+  "name": "NUMBR - Hardware-Level Tally Runtime",
+  "short_name": "NUMBR",
+  "description": "High-precision tactile online tally counter with Web Audio switch feedback, haptics, hex/binary conversion, and keyboard hotkeys.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e6ecf4",
+  "theme_color": "#e6ecf4",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "1024x1024 512x512 192x192 128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
