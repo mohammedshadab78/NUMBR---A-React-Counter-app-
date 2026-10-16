@@ -13,7 +13,7 @@ const INITIAL_LOGS = [
 ];
 
 const PRESETS = [
-  { id: 'custom', name: '01 // Custom Tally', defaultCount: 1048, defaultStep: 10, defaultGoal: 2500 },
+  { id: 'custom', name: '01 // Custom Tally', defaultCount: 0, defaultStep: 10, defaultGoal: 2500 },
   { id: 'gym', name: '02 // Gym Sets & Reps', defaultCount: 12, defaultStep: 1, defaultGoal: 50 },
   { id: 'inventory', name: '03 // Inventory Audit', defaultCount: 1850, defaultStep: 25, defaultGoal: 5000 },
   { id: 'headcount', name: '04 // Headcount', defaultCount: 84, defaultStep: 1, defaultGoal: 300 }
@@ -31,7 +31,7 @@ export default function App() {
     } catch {
       // fallback to default
     }
-    return 1048;
+    return 0;
   });
 
   const [prevCount, setPrevCount] = useState(1038);
